@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom'
 import Clock from './clock'
 import Toggle from './toggle'
 import IfRender from './ifRender'
+import {Blog, List} from './listAndKey'
+import {NameForm, Reservation} from './form'
+import { Calculator } from './statePromote'
 
 function App(){
   return (
@@ -15,4 +18,4 @@ function App(){
   )
 }
 
-ReactDOM.render(<IfRender isLogin={false} />, document.getElementById('root'))
+ReactDOM.render(<Calculator />, document.getElementById('root'))
